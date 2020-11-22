@@ -32,6 +32,9 @@ body {
     background-color: #4d4d4d;
     width: 60px;
     padding: 10px;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
 }
 
 .navigation-container-top,
@@ -66,7 +69,7 @@ body {
     color: #08fdd8;
 }
 
-.main-content-container {
+.home-section-container {
     background-color: #222222;
     display: flex;
     justify-content: space-around;
@@ -90,18 +93,18 @@ body {
 /* MAIN CONTENT STYLES START */
 /********************************************************************************************************/
 
-.main-content-container-left h1 {
+.home-section-container-left h1 {
     color: #fff;
     font-size: 60px;
 }
 
-.main-content-container-left h2 {
+.home-section-container-left h2 {
     color: #7e7e7e;
     font-size: 35px;
     margin: 10px 0;
 }
 
-.main-content-container-contact-me-button {
+.home-section-container-contact-me-button {
     padding: 10px 20px;
     background-color: #222222;
     border: 1px solid #08fdd8;
@@ -113,3 +116,27 @@ body {
 /********************************************************************************************************/
 /* MAIN CONTENT STYLES END */
 /********************************************************************************************************/
+
+#about-section-container {
+    background-color: red;
+    margin-left: 60px;
+    height: 100vh;
+}
+
+#my-work-section-container {
+    background-color: orange;
+    margin-left: 60px;
+    height: 100vh;
+}
+
+#resume-section-container {
+    background-color: yellow;
+    margin-left: 60px;
+    height: 100vh;
+}
+
+#contact-me-section-container {
+    background-color: green;
+    margin-left: 60px;
+    height: 100vh;
+}
