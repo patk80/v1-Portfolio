@@ -3,3 +3,26 @@
     margin: 0;
     padding: 0;
 }
+
+.main-container {
+    height: 100vh;
+    display: flex;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #222222;
+}
+
+.navigation-container-top,
+.navigation-container-middle,
+.navigation-container-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-container {
+    background-color: #3d3d3d;
+}
