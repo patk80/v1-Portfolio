@@ -33,9 +33,8 @@ body {
 .navigation-container {
     display: flex;
     flex-direction: column;
-    background-color: #4d4d4d;
+    background-color: #312450;
     width: 60px;
-    padding: 10px;
     height: 100vh;
     position: fixed;
     z-index: 1;
@@ -56,11 +55,13 @@ body {
 .navigation-container-middle {
     height: 50%;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .navigation-container-bottom {
     height: 40%;
     justify-content: flex-end;
+    padding: 10px;
 }
 
 .navigation-container-middle i {
@@ -74,14 +75,14 @@ body {
 }
 
 #home-section-container {
-    background-color: #222222;
+    background-color: #4c4eac;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
-.HTML-CSS-JS-img {
+.PK-img {
     width: 100%;
     height: auto;
 }
@@ -98,12 +99,12 @@ body {
 /********************************************************************************************************/
 
 .home-section-container-left h1 {
-    color: #fff;
+    color: #e6992b;
     font-size: 60px;
 }
 
 .home-section-container-left h2 {
-    color: #7e7e7e;
+    color: #08fdd8;
     font-size: 35px;
     margin: 10px 0;
 }
@@ -116,8 +117,8 @@ body {
 .home-section-container-contact-me-button {
     padding: 10px 20px;
     background-color: #222222;
-    border: 1px solid #08fdd8;
-    color: #08fdd8;
+    border: 1px solid #e6992b;
+    color: #e6992b;
     font-size: 16px;
     margin-top: 40px;
 }
@@ -133,7 +134,7 @@ body {
 /* ABOUT SECTION STYLES START */
 /********************************************************************************************************/
 #about-section-container {
-    background-color: #555555;
+    background-color: #38397e;
     margin-left: 60px;
     height: 100vh;
 }
@@ -153,7 +154,7 @@ body {
 /* MY WORK SECTION STYLES START */
 /********************************************************************************************************/
 #my-work-section-container {
-    background-color: #222222;
+    background-color: #4c4eac;
     margin-left: 60px;
     height: 100vh;
 }
@@ -173,7 +174,7 @@ body {
 /* RESUME SECTION STYLES START */
 /********************************************************************************************************/
 #resume-section-container {
-    background-color: #555555;
+    background-color: #38397e;
     margin-left: 60px;
     height: 100vh;
 }
@@ -193,7 +194,7 @@ body {
 /* CONTACT ME SECTION STYLES START */
 /********************************************************************************************************/
 #contact-me-section-container {
-    background-color: #222222;
+    background-color: #4c4eac;
     margin-left: 60px;
     height: 100vh;
 }
@@ -227,7 +228,7 @@ body {
     }
 
 
-    .HTML-CSS-JS-img {
+    .PK-img {
         width: auto;
         height: 55px;
     }
