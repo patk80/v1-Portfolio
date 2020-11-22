@@ -100,12 +100,12 @@ body {
 
 .home-section-container-left h1 {
     color: #e6992b;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .home-section-container-left h2 {
     color: #08fdd8;
-    font-size: 35px;
+    font-size: 45px;
     margin: 10px 0;
 }
 
@@ -141,7 +141,7 @@ body {
 
 #about-section-container h2 {
     padding-top: 70px;
-    font-size: 40px;
+    font-size: 60px;
     color: #08fdd8;
 }
 
@@ -153,6 +153,7 @@ body {
 #about-section-container p,
 #about-section-container li {
     color: #fff;
+    font-size: 20px;
 }
 
 .about-section-intro-content {
@@ -183,12 +184,19 @@ body {
 
 #my-work-section-container h2 {
     padding-top: 70px;
-    font-size: 40px;
+    font-size: 60px;
     color: #08fdd8;
 }
 
 #my-work-section-container p {
     color: #fff;
+    font-size: 20px;
+}
+
+.my-work-intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /********************************************************************************************************/
 /* MY WORK SECTION STYLES END */
@@ -208,12 +216,19 @@ body {
 
 #resume-section-container h2 {
     padding-top: 70px;
-    font-size: 40px;
+    font-size: 60px;
     color: #08fdd8;
 }
 
 #resume-section-container p {
     color: #fff;
+    font-size: 20px;
+}
+
+.resume-section-intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .resume-section-button {
@@ -242,8 +257,19 @@ body {
 
 #contact-me-section-container h2 {
     padding-top: 70px;
-    font-size: 40px;
+    font-size: 60px;
     color: #08fdd8;
+}
+
+.contact-me-intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-me-intro-content p {
+    color: #fff;
+    font-size: 20px;
 }
 /********************************************************************************************************/
 /* CONTACT ME SECTION STYLES START */
