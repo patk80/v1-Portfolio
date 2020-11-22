@@ -14,8 +14,8 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #222222;
-    width: 200px;
-    padding: 20px;
+    width: 80px;
+    padding: 10px;
 }
 
 .navigation-container-top,
@@ -23,6 +23,8 @@
 .navigation-container-bottom {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-content-container {
