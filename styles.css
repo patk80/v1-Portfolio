@@ -108,6 +108,11 @@ body {
     margin: 10px 0;
 }
 
+.home-section-container-right img {
+    Width: 50%;
+    height: auto;
+}
+
 .home-section-container-contact-me-button {
     padding: 10px 20px;
     background-color: #222222;
@@ -128,7 +133,7 @@ body {
 /* ABOUT SECTION STYLES START */
 /********************************************************************************************************/
 #about-section-container {
-    background-color: red;
+    background-color: #555555;
     margin-left: 60px;
     height: 100vh;
 }
@@ -143,7 +148,7 @@ body {
 /* MY WORK SECTION STYLES START */
 /********************************************************************************************************/
 #my-work-section-container {
-    background-color: orange;
+    background-color: #222222;
     margin-left: 60px;
     height: 100vh;
 }
@@ -158,7 +163,7 @@ body {
 /* RESUME SECTION STYLES START */
 /********************************************************************************************************/
 #resume-section-container {
-    background-color: yellow;
+    background-color: #555555;
     margin-left: 60px;
     height: 100vh;
 }
@@ -173,10 +178,66 @@ body {
 /* CONTACT ME SECTION STYLES START */
 /********************************************************************************************************/
 #contact-me-section-container {
-    background-color: green;
+    background-color: #222222;
     margin-left: 60px;
     height: 100vh;
 }
 /********************************************************************************************************/
 /* CONTACT ME SECTION STYLES START */
 /********************************************************************************************************/
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .navigation-container {
+        flex-direction: row;
+        align-items: center;
+        height: 60px;
+        padding: 10px;
+        width: 100vw;
+    }
+
+    .navigation-container-top,
+    .navigation-container-middle,
+    .navigation-container-bottom {
+    flex-direction: row;
+    }
+
+
+    .HTML-CSS-JS-img {
+        width: auto;
+        height: 55px;
+    }
+
+    .navigation-container-top {
+        width: 10%;
+    }
+    
+    .navigation-container-middle {
+        width: 70%;
+    }
+    
+    .navigation-container-bottom {
+        width: 10%;
+        justify-content: flex-end;
+    }
+
+    #about-section-container {
+        margin: 0;
+    }
+
+    #my-work-section-container {
+        margin: 0;
+    }
+
+    #resume-section-container {
+        margin: 0;
+    }
+
+    #contact-me-section-container {
+        margin: 0;
+    }
+  }
