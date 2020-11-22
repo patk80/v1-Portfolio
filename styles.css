@@ -137,6 +137,11 @@ body {
     margin-left: 60px;
     height: 100vh;
 }
+
+#about-section-container h2 {
+    padding-top: 70px;
+    font-size: 40px;
+}
 /********************************************************************************************************/
 /* ABOUT SECTION STYLES END */
 /********************************************************************************************************/
@@ -151,6 +156,11 @@ body {
     background-color: #222222;
     margin-left: 60px;
     height: 100vh;
+}
+
+#my-work-section-container h2 {
+    padding-top: 70px;
+    font-size: 40px;
 }
 /********************************************************************************************************/
 /* MY WORK SECTION STYLES END */
@@ -167,6 +177,11 @@ body {
     margin-left: 60px;
     height: 100vh;
 }
+
+#resume-section-container h2 {
+    padding-top: 70px;
+    font-size: 40px;
+}
 /********************************************************************************************************/
 /* RESUME SECTION STYLES END */
 /********************************************************************************************************/
@@ -181,6 +196,11 @@ body {
     background-color: #222222;
     margin-left: 60px;
     height: 100vh;
+}
+
+#contact-me-section-container h2 {
+    padding-top: 70px;
+    font-size: 40px;
 }
 /********************************************************************************************************/
 /* CONTACT ME SECTION STYLES START */
