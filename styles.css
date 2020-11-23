@@ -8,11 +8,12 @@
 }
 
 html {
+    font-size: 100%;
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Calibri;
 }
 /********************************************************************************************************/
 /* GLOBAL STYLES END */
@@ -65,12 +66,12 @@ body {
 }
 
 .navigation-container-middle i {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #08fdd8;
 }
 
 .navigation-container-bottom i {
-    font-size: 15px;
+    font-size: 1rem;
     color: #08fdd8;
 }
 
@@ -100,12 +101,12 @@ body {
 
 .home-section-container-left h1 {
     color: #e6992b;
-    font-size: 80px;
+    font-size: 5rem;
 }
 
 .home-section-container-left h2 {
     color: #08fdd8;
-    font-size: 45px;
+    font-size: 2.8rem;
     margin: 10px 0;
 }
 
@@ -119,8 +120,9 @@ body {
     background-color: #4c4eac;
     border: 1px solid #e6992b;
     color: #e6992b;
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 40px;
+    font-family: Calibri;
 }
 
 /********************************************************************************************************/
@@ -137,23 +139,24 @@ body {
     background-color: #38397e;
     margin-left: 60px;
     height: 100vh;
+    padding: 10px;
 }
 
 #about-section-container h2 {
     padding-top: 70px;
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #08fdd8;
 }
 
 #about-section-container h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #e6992b;
 }
 
 #about-section-container p,
 #about-section-container li {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .about-section-intro-content {
@@ -180,17 +183,18 @@ body {
     background-color: #4c4eac;
     margin-left: 60px;
     height: 100vh;
+    padding: 10px;
 }
 
 #my-work-section-container h2 {
     padding-top: 70px;
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #08fdd8;
 }
 
 #my-work-section-container p {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .my-work-intro-content {
@@ -212,17 +216,18 @@ body {
     background-color: #38397e;
     margin-left: 60px;
     height: 100vh;
+    padding: 10px;
 }
 
 #resume-section-container h2 {
     padding-top: 70px;
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #08fdd8;
 }
 
 #resume-section-container p {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .resume-section-intro-content {
@@ -236,8 +241,9 @@ body {
     background-color: #38397e;
     border: 1px solid #e6992b;
     color: #e6992b;
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 40px;
+    font-family: Calibri;
 }
 /********************************************************************************************************/
 /* RESUME SECTION STYLES END */
@@ -253,11 +259,12 @@ body {
     background-color: #4c4eac;
     margin-left: 60px;
     height: 100vh;
+    padding: 10px;
 }
 
 #contact-me-section-container h2 {
     padding-top: 70px;
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #08fdd8;
 }
 
@@ -269,7 +276,7 @@ body {
 
 .contact-me-intro-content p {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 /********************************************************************************************************/
 /* CONTACT ME SECTION STYLES START */
