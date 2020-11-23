@@ -35,6 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #312450;
+    border-right: 1px solid #e6992b;
     width: 60px;
     height: 100vh;
     position: fixed;
@@ -367,6 +368,8 @@ body {
     .navigation-container {
         flex-direction: row;
         align-items: center;
+        border-bottom: 1px solid #e6992b;
+        border-right: none;
         height: 60px;
         padding: 10px;
         width: 100vw;
