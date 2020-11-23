@@ -404,6 +404,10 @@ body {
         justify-content: flex-end;
     }
 
+    #home-section-container {
+        padding-top: 70px;
+    }
+
     #about-section-container {
         margin: 0;
     }
