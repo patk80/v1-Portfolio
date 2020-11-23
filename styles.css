@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #312450;
-    border-right: 1px solid #e6992b;
+    border-right: 3px solid #e6992b;
     width: 60px;
     height: 100vh;
     position: fixed;
@@ -97,6 +97,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding: 5%;
 }
 
 .home-section-container-left {
@@ -144,7 +145,7 @@ body {
 #about-section-container {
     background-color: #38397e;
     margin-left: 60px;
-    padding: 10px;
+    padding: 5%;
 }
 
 #about-section-container h2 {
@@ -196,7 +197,7 @@ body {
 #my-work-section-container {
     background-color: #4c4eac;
     margin-left: 60px;
-    padding: 10px;
+    padding: 5%;
 }
 
 #my-work-section-container h2 {
@@ -286,7 +287,7 @@ body {
     background-color: #38397e;
     margin-left: 60px;
     height: 100vh;
-    padding: 10px;
+    padding: 5%;
 }
 
 #resume-section-container h2 {
@@ -329,7 +330,7 @@ body {
     background-color: #4c4eac;
     margin-left: 60px;
     height: 100vh;
-    padding: 10px;
+    padding: 5%;
 }
 
 #contact-me-section-container h2 {
@@ -372,7 +373,7 @@ body {
     .navigation-container {
         flex-direction: row;
         align-items: center;
-        border-bottom: 1px solid #e6992b;
+        border-bottom: 3px solid #e6992b;
         border-right: none;
         height: 60px;
         padding: 10px;
