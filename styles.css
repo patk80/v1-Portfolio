@@ -412,4 +412,35 @@ body {
     #contact-me-section-container {
         margin: 0;
     }
-  }
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .about-section-bulleted-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-section-bulleted-content ul {
+        list-style-type: none;
+    }
+
+    .my-work-component {
+        flex-direction: column-reverse;
+        align-items: center;
+    } 
+
+    .my-work-component-left img {
+        width: 400px;
+    }
+
+    .my-work-component-right {
+        width: 100%;
+    }
+
+}
