@@ -107,7 +107,7 @@ body {
 .home-section-container-left h2 {
     color: #08fdd8;
     font-size: 2.8rem;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .home-section-container-right img {
@@ -116,13 +116,15 @@ body {
 }
 
 .home-section-container-contact-me-button {
+    display: inline-block;
     padding: 10px 20px;
     background-color: #4c4eac;
     border: 1px solid #e6992b;
+    margin-top: 60px;
     color: #e6992b;
     font-size: 1rem;
-    margin-top: 40px;
     font-family: Calibri;
+    text-decoration: none;
 }
 
 /********************************************************************************************************/
@@ -143,7 +145,7 @@ body {
 }
 
 #about-section-container h2 {
-    padding-top: 70px;
+    padding: 70px 0;
     font-size: 3.75rem;
     color: #08fdd8;
 }
@@ -151,6 +153,10 @@ body {
 #about-section-container h3 {
     font-size: 1.875rem;
     color: #e6992b;
+}
+
+.about-section-intro-content p {
+    margin: 20px 0;
 }
 
 #about-section-container p,
@@ -186,9 +192,13 @@ body {
 }
 
 #my-work-section-container h2 {
-    padding-top: 70px;
+    padding: 70px 0;
     font-size: 3.75rem;
     color: #08fdd8;
+}
+
+.my-work-intro-content p {
+    margin: 20px 0;
 }
 
 #my-work-section-container p {
@@ -204,16 +214,17 @@ body {
 
 .my-work-component {
     display: flex;
-    justify-content: space-between;
-    background-color: #852060;
-    border: 2px solid rgb(255, 179, 192);
+    justify-content: center;
+    align-items: center;
+    background-color: #312450;
+    border: 2px solid #852060;
 }
 
 .my-work-component-left img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 30vw;
     height: auto;
     padding: 10px;
 }
@@ -239,7 +250,7 @@ body {
 
 .my-work-component-buttons a {
     padding: 10px 20px;
-    background-color: #852060;
+    background-color: #312450;
     border: 1px solid #08fdd8;
     color: #08fdd8;
     font-size: 1rem;
@@ -249,7 +260,7 @@ body {
 }
 
 .my-work-component-right {
-    width: 70vw;
+    width: 60vw;
     padding: 10px;
 }
 /********************************************************************************************************/
@@ -270,7 +281,7 @@ body {
 }
 
 #resume-section-container h2 {
-    padding-top: 70px;
+    padding: 70px 0;
     font-size: 3.75rem;
     color: #08fdd8;
 }
@@ -313,9 +324,13 @@ body {
 }
 
 #contact-me-section-container h2 {
-    padding-top: 70px;
+    padding: 70px 0;
     font-size: 3.75rem;
     color: #08fdd8;
+}
+
+.contact-me-email-heading {
+    color: #e6992b;
 }
 
 .contact-me-intro-content {
@@ -327,7 +342,14 @@ body {
 .contact-me-intro-content p {
     color: #fff;
     font-size: 1.25rem;
+    margin: 30px 0;
 }
+
+.contact-me-intro-content a {
+    color: #e6992b;
+    text-decoration: none;
+}
+
 /********************************************************************************************************/
 /* CONTACT ME SECTION STYLES START */
 /********************************************************************************************************/
