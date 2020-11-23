@@ -182,7 +182,6 @@ body {
 #my-work-section-container {
     background-color: #4c4eac;
     margin-left: 60px;
-    height: 100vh;
     padding: 10px;
 }
 
@@ -201,6 +200,57 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.my-work-component {
+    display: flex;
+    justify-content: space-between;
+    background-color: #852060;
+    border: 2px solid rgb(255, 179, 192);
+}
+
+.my-work-component-left img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.my-work-component h3 {
+    font-size: 1.875rem;
+    color: #e6992b;
+}
+
+.my-work-component p {
+    margin: 20px 0;
+}
+
+.my-work-component-client,
+.my-work-component-built-with {
+    color: #e6992b;
+}
+
+.my-work-component-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-work-component-buttons a {
+    padding: 10px 20px;
+    background-color: #852060;
+    border: 1px solid #08fdd8;
+    color: #08fdd8;
+    font-size: 1rem;
+    margin-top: 40px;
+    font-family: Calibri;
+    text-decoration: none;
+}
+
+.my-work-component-right {
+    width: 70vw;
+    padding: 10px;
 }
 /********************************************************************************************************/
 /* MY WORK SECTION STYLES END */
