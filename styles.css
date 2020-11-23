@@ -75,14 +75,6 @@ body {
     color: #08fdd8;
 }
 
-#home-section-container {
-    background-color: #4c4eac;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-}
-
 .PK-img {
     width: 100%;
     height: auto;
@@ -98,6 +90,13 @@ body {
 /********************************************************************************************************/
 /* HOME SECTION STYLES START */
 /********************************************************************************************************/
+#home-section-container {
+    background-color: #4c4eac;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
 
 .home-section-container-left h1 {
     color: #e6992b;
@@ -140,7 +139,6 @@ body {
 #about-section-container {
     background-color: #38397e;
     margin-left: 60px;
-    height: 100vh;
     padding: 10px;
 }
 
@@ -153,14 +151,19 @@ body {
 #about-section-container h3 {
     font-size: 1.875rem;
     color: #e6992b;
+    margin: 10px 0;
 }
 
 .about-section-intro-content p {
     margin: 20px 0;
 }
 
-#about-section-container p,
-#about-section-container li {
+#about-section-container div p {
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+.about-section-bulleted-content div ul li {
     color: #fff;
     font-size: 1.25rem;
 }
@@ -203,7 +206,7 @@ body {
 
 #my-work-section-container p {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
 .my-work-intro-content {
@@ -288,7 +291,7 @@ body {
 
 #resume-section-container p {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
 .resume-section-intro-content {
@@ -341,8 +344,8 @@ body {
 
 .contact-me-intro-content p {
     color: #fff;
-    font-size: 1.25rem;
-    margin: 30px 0;
+    font-size: 1.75rem;
+    padding: 30px;
 }
 
 .contact-me-intro-content a {
