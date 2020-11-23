@@ -99,6 +99,10 @@ body {
     width: 100%;
 }
 
+.home-section-container-left {
+    padding-left: 10%;
+}
+
 .home-section-container-left h1 {
     color: #e6992b;
     font-size: 5rem;
