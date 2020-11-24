@@ -136,9 +136,9 @@ body {
     margin: 20px 0;
 }
 
-.home-section-container-right img {
-    Width: 80%;
-    height: auto;
+.home-section-container-right {
+    display: flex;
+    flex-direction: column;
 }
 /********************************************************************************************************/
 /* HOME SECTION STYLES END */
