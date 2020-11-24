@@ -362,7 +362,7 @@ body {
 
     .navigation-container-top,
     .navigation-container-bottom {
-    flex-direction: row;
+        flex-direction: row;
     }
 
     .PK-img {
