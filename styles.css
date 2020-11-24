@@ -310,11 +310,13 @@ body {
 #contact-me-section-container h2 {
     padding: 70px 0;
     font-size: 3.75rem;
+    text-align: center;
     color: #08fdd8;
 }
 
 .contact-me-email-heading {
     color: #e6992b;
+    display: block;
 }
 
 .contact-me-intro-content {
