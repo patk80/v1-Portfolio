@@ -27,6 +27,16 @@ body {
     text-decoration: none;
 }
 
+.cyan-button {
+    padding: 10px 20px;
+    background-color: #312450;
+    border: 1px solid #08fdd8;
+    color: #08fdd8;
+    font-size: 1rem;
+    font-family: Calibri;
+    text-decoration: none;
+}
+
 /********************************************************************************************************/
 /* GLOBAL STYLES END */
 /********************************************************************************************************/
@@ -256,17 +266,6 @@ body {
 .my-work-component-buttons {
     display: flex;
     justify-content: space-around;
-}
-
-.my-work-component-buttons a {
-    padding: 10px 20px;
-    background-color: #312450;
-    border: 1px solid #08fdd8;
-    color: #08fdd8;
-    font-size: 1rem;
-    margin-top: 40px;
-    font-family: Calibri;
-    text-decoration: none;
 }
 
 .my-work-component-right {
