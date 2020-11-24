@@ -17,7 +17,7 @@ body {
 }
 
 .orange-button {
-    padding: 10px 20px;
+    padding: 15px 25px;
     background-color: #4c4eac;
     border: 1px solid #e6992b;
     border-radius: 50px;
@@ -30,7 +30,7 @@ body {
 }
 
 .cyan-button {
-    padding: 10px 20px;
+    padding: 15px 25px;
     background-color: #312450;
     border: 1px solid #08fdd8;
     border-radius: 50px;
