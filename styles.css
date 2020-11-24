@@ -26,6 +26,7 @@ body {
     font-size: 1rem;
     font-family: Calibri;
     text-decoration: none;
+    text-align: center;
 }
 
 .cyan-button {
@@ -37,6 +38,7 @@ body {
     font-size: 1rem;
     font-family: Calibri;
     text-decoration: none;
+    text-align: center;
 }
 /********************************************************************************************************/
 /* GLOBAL STYLES END */
