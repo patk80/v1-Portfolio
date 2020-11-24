@@ -20,6 +20,7 @@ body {
     padding: 10px 20px;
     background-color: #4c4eac;
     border: 1px solid #e6992b;
+    border-radius: 50px;
     margin-top: 60px;
     color: #e6992b;
     font-size: 1rem;
@@ -31,6 +32,7 @@ body {
     padding: 10px 20px;
     background-color: #312450;
     border: 1px solid #08fdd8;
+    border-radius: 50px;
     color: #08fdd8;
     font-size: 1rem;
     font-family: Calibri;
