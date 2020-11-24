@@ -226,6 +226,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #312450;
+    border-radius: 25px;
     margin: 15px 0;
 }
 
