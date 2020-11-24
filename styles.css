@@ -144,7 +144,7 @@ body {
 }
 
 #about-section-container h2 {
-    padding: 70px 0;
+    padding: 0 0 50px 0;
     font-size: 3.75rem;
     color: #08fdd8;
 }
@@ -196,7 +196,7 @@ body {
 }
 
 #my-work-section-container h2 {
-    padding: 70px 0;
+    padding: 0 0 50px 0;
     font-size: 3.75rem;
     color: #08fdd8;
 }
@@ -275,7 +275,7 @@ body {
 }
 
 #resume-section-container h2 {
-    padding: 70px 0;
+    padding: 0 0 50px 0;
     font-size: 3.75rem;
     color: #08fdd8;
 }
@@ -312,7 +312,7 @@ body {
 }
 
 #contact-me-section-container h2 {
-    padding: 70px 0;
+    padding: 0 0 50px 0;
     font-size: 3.75rem;
     text-align: center;
     color: #08fdd8;
@@ -357,7 +357,6 @@ body {
         border-bottom: 3px solid #e6992b;
         border-right: none;
         height: 60px;
-        padding: 10px;
         width: 100vw;
     }
 
@@ -366,10 +365,9 @@ body {
     flex-direction: row;
     }
 
-
     .PK-img {
         width: auto;
-        height: 55px;
+        height: 60px;
     }
 
     .navigation-container-top {
@@ -382,6 +380,14 @@ body {
 
     #home-section-container {
         padding-top: 70px;
+    }
+
+    #about-section-container h2,
+    #my-work-section-container h2,
+    #resume-section-container h2,
+    #contact-me-section-container h2 {
+        padding: 70px 0 5px 0;
+        
     }
 
     #about-section-container {
