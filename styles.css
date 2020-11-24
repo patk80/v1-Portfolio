@@ -422,17 +422,16 @@ body {
 
     .about-section-bulleted-content {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .about-section-bulleted-content ul {
-        list-style-type: none;
+        align-items: flex-start;
     }
 
     .my-work-component {
         flex-direction: column-reverse;
         align-items: center;
+    } 
+
+    .my-work-component h3 {
+        text-align: center;
     } 
 
     .my-work-component-left img {
