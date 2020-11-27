@@ -51,6 +51,16 @@ body {
     text-decoration: none;
     text-align: center;
     outline: none;
+    transition: all 0.5s;
+}
+
+.cyan-button:hover {
+    background-color: #08fdd8;
+    border: 1px solid #312450;
+    color: #312450;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0px 0px 2px 2px #e6992b;
 }
 /********************************************************************************************************/
 /* GLOBAL STYLES END */
