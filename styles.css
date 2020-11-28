@@ -37,7 +37,7 @@ body {
     color: #4c4eac;
     transform: scale(1.1);
     transition: all 0.5s;
-    box-shadow: 0px 0px 2px 2px #08fdd8;
+    box-shadow: 0px 0px 2px 2px #808080;
 }
 
 .cyan-button {
