@@ -316,6 +316,12 @@ body {
 
 #resume-section-button {
     background-color: #38397e;
+    transition: all 0.5s;
+}
+
+#resume-section-button:hover {
+    background-color: #e6992b;
+    transition: all 0.5s;
 }
 /********************************************************************************************************/
 /* RESUME SECTION STYLES END */
