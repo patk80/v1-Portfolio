@@ -455,6 +455,23 @@ body {
 
 @media only screen and (max-width: 900px) {
 
+    #home-section-container {
+        padding: 10px;
+    }
+
+    .home-section-container-left h1 {
+        font-size: 4rem;
+    }
+    
+    .home-section-container-left h2 {
+        font-size: 2rem;
+        margin: 0 0 10px 0;
+    }
+    
+    .home-section-container-left p {
+        font-size: 1rem;
+    }
+
     .about-section-bulleted-content {
         flex-direction: column;
         align-items: flex-start;
@@ -475,6 +492,23 @@ body {
 
     .my-work-component-right {
         width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 770px) {
+
+    #home-section-container {
+    }
+
+    #home-section-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .orange-button {
+        margin-top: 40px;
     }
 
 }
