@@ -433,7 +433,7 @@ body {
     #resume-section-container h2,
     #contact-me-section-container h2 {
         padding: 70px 0 5px 0;
-        
+        font-size: 4rem;
     }
 
     #about-section-container {
