@@ -415,6 +415,19 @@ body {
         padding-top: 70px;
     }
 
+    .home-section-container-left h1 {
+        font-size: 5rem;
+    }
+    
+    .home-section-container-left h2 {
+        font-size: 3rem;
+        margin: 0 0 10px 0;
+    }
+    
+    .home-section-container-left p {
+        font-size: 1.5rem;;
+    }
+
     #about-section-container h2,
     #my-work-section-container h2,
     #resume-section-container h2,
