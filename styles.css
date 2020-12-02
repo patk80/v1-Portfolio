@@ -177,9 +177,10 @@ body {
 }
 
 #about-section-container h3 {
-    font-size: 1.875rem;
+    font-size: 3rem;
     color: #e6992b;
     margin: 10px 0;
+    text-align: center;
 }
 
 .about-section-intro-content p {
@@ -191,11 +192,6 @@ body {
     font-size: 1.75rem;
 }
 
-.about-section-bulleted-content div ul li {
-    color: #fff;
-    font-size: 1.25rem;
-}
-
 .about-section-intro-content {
     display: flex;
     flex-direction: column;
@@ -204,8 +200,12 @@ body {
 
 .about-section-bulleted-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
+
 /********************************************************************************************************/
 /* ABOUT SECTION STYLES END */
 /********************************************************************************************************/
