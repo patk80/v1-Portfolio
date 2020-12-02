@@ -165,7 +165,7 @@ body {
 /* ABOUT SECTION STYLES START */
 /********************************************************************************************************/
 #about-section-container {
-    background-color: #222;
+    background-color: #181818;
     margin-left: 60px;
     padding: 5%;
 }
@@ -296,7 +296,7 @@ body {
 /* RESUME SECTION STYLES START */
 /********************************************************************************************************/
 #resume-section-container {
-    background-color: #222;
+    background-color: #181818;
     margin-left: 60px;
     height: 100vh;
     padding: 5%;
@@ -400,7 +400,7 @@ body {
 
     .PK-img {
         width: auto;
-        height: 60px;
+        height: 64px;
     }
 
     .navigation-container-top {
