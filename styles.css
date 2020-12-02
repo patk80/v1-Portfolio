@@ -81,8 +81,7 @@ body {
 .navigation-container {
     display: flex;
     flex-direction: column;
-    background-color: #312450;
-    border-right: 3px solid #e6992b;
+    background-color: #1d1d1d;
     width: 60px;
     height: 100vh;
     position: fixed;
@@ -389,7 +388,6 @@ body {
     .navigation-container {
         flex-direction: row;
         align-items: center;
-        border-bottom: 3px solid #e6992b;
         border-right: none;
         height: 60px;
         width: 100vw;
