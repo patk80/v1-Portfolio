@@ -160,7 +160,7 @@ body {
 /* ABOUT SECTION STYLES START */
 /********************************************************************************************************/
 #about-section-container {
-    background-color: #38397e;
+    background-color: #222;
     margin-left: 60px;
     padding: 5%;
 }
@@ -212,7 +212,7 @@ body {
 /* MY WORK SECTION STYLES START */
 /********************************************************************************************************/
 #my-work-section-container {
-    background-color: #4c4eac;
+    background-color: #000;
     margin-left: 60px;
     padding: 5%;
 }
@@ -291,7 +291,7 @@ body {
 /* RESUME SECTION STYLES START */
 /********************************************************************************************************/
 #resume-section-container {
-    background-color: #38397e;
+    background-color: #222;
     margin-left: 60px;
     height: 100vh;
     padding: 5%;
@@ -315,7 +315,7 @@ body {
 }
 
 #resume-section-button {
-    background-color: #38397e;
+    background-color: #222;
     transition: all 0.5s;
 }
 
@@ -334,7 +334,7 @@ body {
 /* CONTACT ME SECTION STYLES START */
 /********************************************************************************************************/
 #contact-me-section-container {
-    background-color: #4c4eac;
+    background-color: #000;
     margin-left: 60px;
     height: 100vh;
     padding: 5%;
