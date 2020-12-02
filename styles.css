@@ -143,6 +143,12 @@ body {
 .home-section-container-left h2 {
     color: #08fdd8;
     font-size: 3.5rem;
+    margin: 0 0 10px 0;
+}
+
+.home-section-container-left p {
+    color: #fff;
+    font-size: 2rem;;
 }
 
 .home-section-container-right {
