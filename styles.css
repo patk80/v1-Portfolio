@@ -42,7 +42,7 @@ body {
 
 .cyan-button {
     padding: 15px 25px;
-    background-color: #312450;
+    background-color: #636363;
     border: 3px solid #08fdd8;
     border-radius: 50px;
     color: #08fdd8;
@@ -247,9 +247,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #312450;
+    background-color: #636363;
     border-radius: 25px;
-    margin: 15px 0;
+    margin: 40px 0;
     padding: 2%;
 }
 
