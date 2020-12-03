@@ -475,6 +475,10 @@ body {
         font-size: 1rem;
     }
 
+    .about-section-intro-content p {
+        line-height: 2.25rem;
+    }
+
     .about-section-bulleted-content {
         flex-direction: column;
         text-align: center;
@@ -494,6 +498,10 @@ body {
     .my-work-component h3 {
         text-align: center;
     } 
+
+    .my-work-intro-content p {
+        line-height: 2.25rem;
+    }
 
     .my-work-component-left img {
         width: 400px;
