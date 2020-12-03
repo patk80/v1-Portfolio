@@ -180,6 +180,7 @@ body {
     font-size: 3rem;
     color: #e6992b;
     margin: 10px 0;
+    padding: 40px 0 40px 0;
     text-align: center;
 }
 
@@ -528,10 +529,6 @@ body {
 }
 
 @media only screen and (max-width: 390px) {
-
-    .home-section-container-left h1 {
-        font-size: 2.5rem;
-    }
 
     .orange-button {
         margin-top: 30px;
