@@ -477,7 +477,13 @@ body {
 
     .about-section-bulleted-content {
         flex-direction: column;
-        align-items: flex-start;
+        text-align: center;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .about-section-bulleted-content ul li {
+        list-style-type: none;
     }
 
     .my-work-component {
@@ -515,6 +521,10 @@ body {
 
 
 @media only screen and (max-width: 506px) {
+
+    .navigation-container-bottom {
+        justify-content: space-evenly;
+    }
 
     .home-section-container-left h1 {
         font-size: 3rem;
