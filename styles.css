@@ -484,6 +484,10 @@ body {
         line-height: 2.25rem;
     }
 
+    #about-section-container h3 {
+        padding-bottom: 5px;
+    }
+
     .about-section-bulleted-content {
         flex-direction: column;
         text-align: center;
