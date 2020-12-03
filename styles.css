@@ -544,6 +544,10 @@ body {
     #contact-me-section-container h2 {
         font-size: 3rem;
     }
+
+    #about-section-container h3 {
+        font-size: 2.25rem;
+    }
     
 }
 
