@@ -500,15 +500,41 @@ body {
 @media only screen and (max-width: 770px) {
 
     #home-section-container {
-    }
-
-    #home-section-container {
         flex-direction: column;
         justify-content: center;
     }
 
     .orange-button {
         margin-top: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width: 506px) {
+
+    .home-section-container-left h1 {
+        font-size: 3rem;
+    }
+
+    .home-section-container-left h2 {
+        font-size: 1.5rem;
+    }
+
+    .orange-button {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .home-section-container-left h1 {
+        font-size: 2.5rem;
+    }
+
+    .orange-button {
+        margin-top: 30px;
     }
 
 }
