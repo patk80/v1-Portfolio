@@ -527,6 +527,17 @@ body {
 
 }
 
+@media only screen and (max-width: 665px) {
+
+    #about-section-container h2,
+    #my-work-section-container h2,
+    #resume-section-container h2,
+    #contact-me-section-container h2 {
+        font-size: 3rem;
+    }
+    
+}
+
 
 @media only screen and (max-width: 506px) {
 
