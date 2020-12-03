@@ -186,6 +186,7 @@ body {
 
 .about-section-intro-content p {
     margin: 20px 0;
+    line-height: 2.5rem;
 }
 
 #about-section-container div p {
@@ -231,6 +232,7 @@ body {
 
 .my-work-intro-content p {
     margin: 20px 0;
+    line-height: 2.5rem;
 }
 
 #my-work-section-container p {
