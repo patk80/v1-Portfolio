@@ -152,7 +152,11 @@ body {
 
 .home-section-container-left p {
     color: #fff;
-    font-size: 2rem;;
+    font-size: 2rem;
+}
+
+.home-slash {
+    color: #e6992b;
 }
 
 .home-section-container-right {
