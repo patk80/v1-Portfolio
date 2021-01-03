@@ -105,14 +105,19 @@ body {
     padding: 10px;
 }
 
-.navigation-container-bottom i {
-    font-size: 1.25rem;
-    color: #08fdd8;
-}
-
 .PK-img {
     width: 100%;
     height: auto;
+}
+
+.nav-icon {
+    font-size: 1.25rem;
+    color: #08fdd8;
+    transition: all 0.5s;
+}
+
+.nav-icon:hover {
+    color: #e6992b;
 }
 /********************************************************************************************************/
 /* NAVIGATION STYLES END */
