@@ -38,6 +38,7 @@ body {
     transform: scale(1.1);
     transition: all 0.5s;
     box-shadow: 0px 0px 2px 2px #808080;
+    cursor: pointer;
 }
 
 .cyan-button {
@@ -61,6 +62,7 @@ body {
     transform: scale(1.1);
     transition: all 0.5s;
     box-shadow: 0px 0px 2px 2px #808080;
+    cursor: pointer;
 }
 /********************************************************************************************************/
 /* GLOBAL STYLES END */
