@@ -115,12 +115,12 @@ body {
 
 .nav-icon {
     font-size: 1.25rem;
-    color: #08fdd8;
+    color: #e6992b;
     transition: all 0.5s;
 }
 
 .nav-icon:hover {
-    color: #e6992b;
+    color: #6c63ff;
 }
 /********************************************************************************************************/
 /* NAVIGATION STYLES END */
@@ -134,7 +134,7 @@ body {
 /* HOME SECTION STYLES START */
 /********************************************************************************************************/
 #home-section-container {
-    background-color: #000;
+    background-color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -148,13 +148,13 @@ body {
 }
 
 .home-section-container-left h2 {
-    color: #08fdd8;
+    color: #6c63ff;
     font-size: 3.5rem;
     margin: 0 0 10px 0;
 }
 
 .home-section-container-left p {
-    color: #fff;
+    color: #000;
     font-size: 2rem;
 }
 
@@ -177,7 +177,7 @@ body {
 /* ABOUT SECTION STYLES START */
 /********************************************************************************************************/
 #about-section-container {
-    background-color: #181818;
+    background-color: #eee1d8;
     margin-left: 60px;
     padding: 5%;
 }
@@ -185,7 +185,7 @@ body {
 #about-section-container h2 {
     padding: 20px 0 70px 0;
     font-size: 5rem;
-    color: #08fdd8;
+    color: #6c63ff;
 }
 
 #about-section-container h3 {
@@ -202,7 +202,7 @@ body {
 }
 
 #about-section-container div p {
-    color: #fff;
+    color: #000;
     font-size: 1.75rem;
 }
 
@@ -215,13 +215,13 @@ body {
 .about-section-bulleted-content {
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: #000;
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
 
-.about-cyan-text {
-    color: #08fdd8;
+.about-highlight-text {
+    color: #6c63ff;
     font-weight: 900;
 }
 
@@ -236,7 +236,7 @@ body {
 /* MY WORK SECTION STYLES START */
 /********************************************************************************************************/
 #my-work-section-container {
-    background-color: #000;
+    background-color: #fff;
     margin-left: 60px;
     padding: 5%;
 }
@@ -244,7 +244,7 @@ body {
 #my-work-section-container h2 {
     padding: 20px 0 70px 0;
     font-size: 5rem;
-    color: #08fdd8;
+    color: #6c63ff;
 }
 
 .my-work-intro-content p {
@@ -253,7 +253,7 @@ body {
 }
 
 #my-work-section-container p {
-    color: #fff;
+    color: #000;
     font-size: 1.75rem;
 }
 
@@ -267,7 +267,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 3px solid #08fdd8;
+    border-bottom: 5px solid #6c63ff;
     margin: 40px 0;
     padding: 2%;
 }
@@ -315,7 +315,7 @@ body {
 /* RESUME SECTION STYLES START */
 /********************************************************************************************************/
 #resume-section-container {
-    background-color: #181818;
+    background-color: #eee1d8;
     margin-left: 60px;
     height: 100vh;
     padding: 5%;
@@ -324,11 +324,11 @@ body {
 #resume-section-container h2 {
     padding: 20px 0 70px 0;
     font-size: 5rem;
-    color: #08fdd8;
+    color: #6c63ff;
 }
 
 #resume-section-container p {
-    color: #fff;
+    color: #000;
     font-size: 1.75rem;
 }
 
@@ -358,7 +358,7 @@ body {
 /* CONTACT ME SECTION STYLES START */
 /********************************************************************************************************/
 #contact-me-section-container {
-    background-color: #000;
+    background-color: #fff;
     margin-left: 60px;
     height: 100vh;
     padding: 5%;
@@ -368,7 +368,7 @@ body {
     padding: 20px 0 70px 0;
     font-size: 5rem;
     text-align: center;
-    color: #08fdd8;
+    color: #6c63ff;
 }
 
 .contact-me-email-heading {
@@ -383,7 +383,7 @@ body {
 }
 
 .contact-me-intro-content p {
-    color: #fff;
+    color: #000;
     font-size: 1.75rem;
     padding: 30px;
 }
