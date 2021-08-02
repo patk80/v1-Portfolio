@@ -103,6 +103,7 @@ body {
 
 .navigation-container-bottom {
     height: 80%;
+
     justify-content: space-around;
     padding: 10px;
 }
@@ -266,8 +267,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #636363;
-    border-radius: 25px;
+    border-bottom: 3px solid #08fdd8;
     margin: 40px 0;
     padding: 2%;
 }
