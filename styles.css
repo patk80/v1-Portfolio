@@ -33,7 +33,7 @@ body {
 
 .orange-button:hover {
     background-color: #e6992b;
-    border: 3px solid #08fdd8;
+    border: 3px solid #6c63ff;
     color: #000;
     transform: scale(1.1);
     transition: all 0.5s;
@@ -43,10 +43,10 @@ body {
 
 .cyan-button {
     padding: 15px 25px;
-    background-color: #636363;
-    border: 3px solid #08fdd8;
+    background-color: #d2d2d2;
+    border: 3px solid #6c63ff;
     border-radius: 50px;
-    color: #08fdd8;
+    color: #6c63ff;
     font-size: 1rem;
     font-family: Calibri;
     text-decoration: none;
@@ -56,9 +56,9 @@ body {
 }
 
 .cyan-button:hover {
-    background-color: #08fdd8;
+    background-color: #6c63ff;
     border: 3px solid #312450;
-    color: #312450;
+    color: #fff;
     transform: scale(1.1);
     transition: all 0.5s;
     box-shadow: 0px 0px 2px 2px #808080;
@@ -177,7 +177,7 @@ body {
 /* ABOUT SECTION STYLES START */
 /********************************************************************************************************/
 #about-section-container {
-    background-color: #eee1d8;
+    background-color: #d6d6d6;
     margin-left: 60px;
     padding: 5%;
 }
@@ -315,7 +315,7 @@ body {
 /* RESUME SECTION STYLES START */
 /********************************************************************************************************/
 #resume-section-container {
-    background-color: #eee1d8;
+    background-color: #d6d6d6;
     margin-left: 60px;
     height: 100vh;
     padding: 5%;
