@@ -262,7 +262,8 @@ body {
 }
 
 .my-work-component h3 {
-    font-size: 1.875rem;
+    font-size: 3rem;
+    font-style: italic;
     color: #e6992b;
 }
 
