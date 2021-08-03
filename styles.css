@@ -129,6 +129,10 @@ body {
     padding: 5%;
 }
 
+.home-section-container-left {
+    text-align: center;
+}
+
 .home-section-container-left h1 {
     color: #e6992b;
     font-size: 8rem;
@@ -147,6 +151,10 @@ body {
 
 .home-slash {
     color: #e6992b;
+}
+
+#hero-image {
+    width: 35%;
 }
 
 .home-section-container-right {
