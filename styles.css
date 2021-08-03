@@ -142,6 +142,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.home-button {
+    margin: 30px 0;
+}
 /********************************************************************************************************/
 /* HOME SECTION STYLES END */
 /********************************************************************************************************/
@@ -313,6 +317,10 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+#resume-section-button {
+    margin-top: 40px;
+}
 /********************************************************************************************************/
 /* RESUME SECTION STYLES END */
 /********************************************************************************************************/
@@ -339,7 +347,7 @@ body {
 
 .contact-me-email-heading {
     color: #e6992b;
-    display: block;
+    font-size: 4rem;
 }
 
 .contact-me-intro-content {
