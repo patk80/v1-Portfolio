@@ -45,9 +45,10 @@ body {
 #my-work-section-container h2,
 #resume-section-container h2,
 #contact-me-section-container h2 {
-    padding: 20px 0 70px 0;
+    margin: 20px 0 70px 0;
     font-size: 5rem;
-    color: #6c63ff;
+    color: #7510f7;
+    border-bottom: 5px solid #e6992b;
 }
 
 /********************************************************************************************************/
@@ -406,7 +407,7 @@ body {
     #my-work-section-container h2,
     #resume-section-container h2,
     #contact-me-section-container h2 {
-        padding: 70px 0 5px 0;
+        margin: 70px 0 5px 0;
         font-size: 4rem;
     }
 
