@@ -40,6 +40,16 @@ body {
     box-shadow: 0px 0px 2px 2px #808080;
     cursor: pointer;
 }
+
+#about-section-container h2,
+#my-work-section-container h2,
+#resume-section-container h2,
+#contact-me-section-container h2 {
+    padding: 20px 0 70px 0;
+    font-size: 5rem;
+    color: #6c63ff;
+}
+
 /********************************************************************************************************/
 /* GLOBAL STYLES END */
 /********************************************************************************************************/
@@ -162,12 +172,6 @@ body {
     padding: 5%;
 }
 
-#about-section-container h2 {
-    padding: 20px 0 70px 0;
-    font-size: 5rem;
-    color: #6c63ff;
-}
-
 #about-section-container h3 {
     font-size: 3rem;
     color: #e6992b;
@@ -219,12 +223,6 @@ body {
     background-color: #fff;
     margin-left: 60px;
     padding: 5%;
-}
-
-#my-work-section-container h2 {
-    padding: 20px 0 70px 0;
-    font-size: 5rem;
-    color: #6c63ff;
 }
 
 .my-work-intro-content p {
@@ -302,12 +300,6 @@ body {
     padding: 5%;
 }
 
-#resume-section-container h2 {
-    padding: 20px 0 70px 0;
-    font-size: 5rem;
-    color: #6c63ff;
-}
-
 #resume-section-container p {
     color: #000;
     font-size: 1.75rem;
@@ -337,13 +329,6 @@ body {
     margin-left: 60px;
     height: 100vh;
     padding: 5%;
-}
-
-#contact-me-section-container h2 {
-    padding: 20px 0 70px 0;
-    font-size: 5rem;
-    text-align: center;
-    color: #6c63ff;
 }
 
 .contact-me-email-heading {
