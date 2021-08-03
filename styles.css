@@ -52,6 +52,13 @@ body {
     text-transform: uppercase;
 }
 
+.about-section-intro-content p,
+.project-intro-content p, 
+.resume-section-intro-content p,
+.contact-me-intro-content p {
+    line-height: 3rem;
+}
+
 /********************************************************************************************************/
 /* GLOBAL STYLES END */
 /********************************************************************************************************/
@@ -190,11 +197,6 @@ body {
     text-align: center;
 }
 
-.about-section-intro-content p {
-    margin: 20px 0;
-    line-height: 2.5rem;
-}
-
 #about-section-container div p {
     color: #000;
     font-size: 1.75rem;
@@ -235,11 +237,6 @@ body {
     padding: 5%;
 }
 
-.project-intro-content p {
-    margin: 20px 0;
-    line-height: 2.5rem;
-}
-
 #project-section-container p {
     color: #000;
     font-size: 1.75rem;
@@ -255,7 +252,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 3px solid #e6992b;
+    border-bottom: 5px solid #e6982b48;
     margin: 40px 0;
     padding: 2%;
 }
