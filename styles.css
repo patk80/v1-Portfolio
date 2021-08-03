@@ -42,7 +42,7 @@ body {
 }
 
 #about-section-container h2,
-#my-work-section-container h2,
+#project-section-container h2,
 #resume-section-container h2,
 #contact-me-section-container h2 {
     margin: 20px 0 70px 0;
@@ -227,31 +227,31 @@ body {
 
 
 /********************************************************************************************************/
-/* MY WORK SECTION STYLES START */
+/* PROJECT SECTION STYLES START */
 /********************************************************************************************************/
-#my-work-section-container {
+#project-section-container {
     background-color: #fff;
     margin-left: 60px;
     padding: 5%;
 }
 
-.my-work-intro-content p {
+.project-intro-content p {
     margin: 20px 0;
     line-height: 2.5rem;
 }
 
-#my-work-section-container p {
+#project-section-container p {
     color: #000;
     font-size: 1.75rem;
 }
 
-.my-work-intro-content {
+.project-intro-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.my-work-component {
+.project-component {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,7 +260,7 @@ body {
     padding: 2%;
 }
 
-.my-work-component-left img {
+.project-component-left img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,32 +269,32 @@ body {
     padding: 10px;
 }
 
-.my-work-component h3 {
+.project-component h3 {
     font-size: 3rem;
     font-style: italic;
     color: #e6992b;
 }
 
-.my-work-component p {
+.project-component p {
     margin: 20px 0;
 }
 
-.my-work-component-client,
-.my-work-component-built-with {
+.project-component-client,
+.project-component-built-with {
     color: #6c63ff;
 }
 
-.my-work-component-buttons {
+.project-component-buttons {
     display: flex;
     justify-content: space-around;
 }
 
-.my-work-component-right {
+.project-component-right {
     width: 60vw;
     padding: 10px;
 }
 /********************************************************************************************************/
-/* MY WORK SECTION STYLES END */
+/* PROJECT SECTION STYLES END */
 /********************************************************************************************************/
 
 
@@ -428,7 +428,7 @@ body {
     }
 
     #about-section-container h2,
-    #my-work-section-container h2,
+    #project-section-container h2,
     #resume-section-container h2,
     #contact-me-section-container h2 {
         margin: 70px 0 5px 0;
@@ -439,7 +439,7 @@ body {
         margin: 0;
     }
 
-    #my-work-section-container {
+    #project-section-container {
         margin: 0;
     }
 
@@ -485,24 +485,24 @@ body {
         line-height: 2rem;
     }
 
-    .my-work-component {
+    .project-component {
         flex-direction: column;
         align-items: center;
     } 
 
-    .my-work-component h3 {
+    .project-component h3 {
         text-align: center;
     } 
 
-    .my-work-intro-content p {
+    .project-intro-content p {
         line-height: 2.25rem;
     }
 
-    .my-work-component-left img {
+    .project-component-left img {
         width: 400px;
     }
 
-    .my-work-component-right {
+    .project-component-right {
         width: 100%;
     }
 
@@ -521,7 +521,7 @@ body {
 @media only screen and (max-width: 665px) {
 
     #about-section-container h2,
-    #my-work-section-container h2,
+    #project-section-container h2,
     #resume-section-container h2,
     #contact-me-section-container h2 {
         font-size: 3rem;
